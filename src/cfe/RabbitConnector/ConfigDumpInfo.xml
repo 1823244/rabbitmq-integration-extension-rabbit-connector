@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
 	<ConfigVersions>
+		<Metadata name="Catalog.ксп_ОчередиRabbit" id="aa37ad1c-de8a-4af0-a3bc-2fddeb8a37e5" configVersion="1d39499c6e24f56fb461b6c205ab9ff92f863e0e"/>
 		<Metadata name="Catalog.ксп_Серверы_RabbitMQ" id="f7dd91d7-8887-4d0e-b8ca-ab718b4598c2" configVersion="c8a8fd94e4c8469396c28993e9104c661f5abc54">
 			<Metadata name="Catalog.ксп_Серверы_RabbitMQ.Attribute.port" id="3435e067-70ea-4d79-a476-41da566b4b63"/>
 			<Metadata name="Catalog.ксп_Серверы_RabbitMQ.Attribute.server" id="5f98ed0b-6fce-4aeb-82dd-45a649c3bb6b"/>
@@ -8,21 +9,22 @@
 			<Metadata name="Catalog.ксп_Серверы_RabbitMQ.Attribute.username" id="8d3362c3-0543-400e-924a-dac23552d9fb"/>
 			<Metadata name="Catalog.ксп_Серверы_RabbitMQ.Attribute.vhost" id="c1b45e47-8748-4a25-abb5-5de70339fd58"/>
 		</Metadata>
-		<Metadata name="Catalog.ксп_ТочкиОбменаRabbit" id="f15b0e88-6a32-4731-b1c5-473985355f76" configVersion="1e971425478de646e35917f007cfdc29ef9661ff"/>
+		<Metadata name="Catalog.ксп_ТочкиОбменаRabbit" id="f15b0e88-6a32-4731-b1c5-473985355f76" configVersion="b2364ccc216d77c8cc785e0e37dd80f0efa609df"/>
 		<Metadata name="CommonModule.PinkRabbit" id="203ffb60-33fe-4769-b289-5ddd1dd415a4" configVersion="5d3a3d4fbc240c9e8f1edff53b19bde37cd06239"/>
 		<Metadata name="CommonModule.PinkRabbit.Module" id="203ffb60-33fe-4769-b289-5ddd1dd415a4.0" configVersion="60c42ced4fcaca2972ccb43a6c24dce95fc062bd"/>
-		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый" id="fe9f3dd1-51f2-430b-acbe-0bafef106a0c" configVersion="84838a778cd67aea58955373b150e5a6bfc8a77a"/>
+		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый" id="fe9f3dd1-51f2-430b-acbe-0bafef106a0c" configVersion="90b612943cb71661f3736168bcb7b68013af1d73"/>
 		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый.Module" id="fe9f3dd1-51f2-430b-acbe-0bafef106a0c.0" configVersion="cc5dcd7de55c3f015403d907f9b519d4b02bd987"/>
 		<Metadata name="CommonTemplate.PinkRabbitMQ32" id="9aeeb0cd-6344-4312-a508-54ef4b7ad21f" configVersion="2000cd991062caf97eebb8770050a08b4c34454b"/>
 		<Metadata name="CommonTemplate.PinkRabbitMQ32.Template" id="9aeeb0cd-6344-4312-a508-54ef4b7ad21f.0" configVersion="61611a5f52084d51b185db769aaae172c5418254"/>
 		<Metadata name="CommonTemplate.PinkRabbitMQ64" id="12ba866e-9a85-4112-8cb7-6209665a26f4" configVersion="b84098107b4f23e30492f0f608673909de25d26a"/>
 		<Metadata name="CommonTemplate.PinkRabbitMQ64.Template" id="12ba866e-9a85-4112-8cb7-6209665a26f4.0" configVersion="983b7f6b9ded1782cf0c1d4a1ec24bb9ea1fb26d"/>
-		<Metadata name="Configuration.RabbitConnector" id="6f82b114-8e3f-4368-91c5-32342dc90715" configVersion="2854cd4e663d84463677cf514f073fbee8c8cb75"/>
+		<Metadata name="Configuration.RabbitConnector" id="2508e78b-3e31-451f-8a12-92d87d88c8df" configVersion="fafd915a3fb078c8e1bab5f569a0220e19cbf3ed"/>
 		<Metadata name="Constant.ксп_АктивныйСерверRabbitMQ" id="b2af1f80-dd25-402d-8591-9b06c176f0ba" configVersion="4cc3abd35bd392748f27b7383a0a580efe9a19ad"/>
+		<Metadata name="Constant.ксп_ОчередьВходящихДокументов" id="7ceaeda0-ac67-44be-904e-cc019f333459" configVersion="4daeab3817d09efcf1b9a83e07bb538d5ce58031"/>
+		<Metadata name="Constant.ксп_ОчередьВходящихНСИ" id="2ca940f8-6bb9-4aec-b0ad-146464b7bda3" configVersion="325b9dc9bfe65699031251bdc57738fadc5f6fe3"/>
 		<Metadata name="Constant.ксп_ТочкаОбмена" id="9df19350-04b6-4d5c-a319-b72f947cedb4" configVersion="5ddd5a3735491b5662312a6010aa7a6bb80cefe2"/>
-		<Metadata name="Language.Русский" id="4f031500-de3f-4fe9-80c5-3814d232c52a" configVersion="1925c7d9f13d2cc808d4fda7d9f1544c37b9bcfa"/>
+		<Metadata name="Language.Русский" id="47e283b4-ff3c-49a3-9391-ff6cf6f72cad" configVersion="63970fec9ae0f6e229792f74359be3ae286f5aa8"/>
 		<Metadata name="Role.rabbit_ОсновнаяРоль" id="4c6d1183-4b3c-45d3-8859-53008100d8e9" configVersion="25e0a62db817ffde86a2c58723c8f1990bae8237"/>
-		<Metadata name="Role.Расш1_ОсновнаяРоль" id="ffd58281-72fa-4bdf-a0d0-5545b0b39106" configVersion="6099325d3065433c71c9e012c67dabbf4fffcdda"/>
-		<Metadata name="Subsystem.RabbitMQConnector" id="d846b1ea-e82d-4d5c-acb7-3f0e3d5868d9" configVersion="0f8f392228648ea768fc24e6ab4d4d10f9bfb9f8"/>
+		<Metadata name="Subsystem.RabbitMQConnector" id="d846b1ea-e82d-4d5c-acb7-3f0e3d5868d9" configVersion="49f1999700bfc4a24d525cc1884084843da87047"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

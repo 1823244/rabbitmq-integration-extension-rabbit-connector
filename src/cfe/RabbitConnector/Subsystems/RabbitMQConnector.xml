@@ -23,8 +23,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.PinkRabbitMQ32</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.rabbit_ОсновнаяРоль</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ксп_ТочкиОбменаRabbit</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">20777742-f866-4e29-b384-96f59b5bb61e</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ксп_ТочкаОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ксп_ОчередиRabbit</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
