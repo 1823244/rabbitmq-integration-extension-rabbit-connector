@@ -8,7 +8,7 @@
 // Возвращаемое значение:
 //	Тип: AddIn.BITERP.PinkRabbitMQ3
 //
-Функция ПолучитьКлиента() Экспорт  // throws Exception
+Функция ПолучитьКлиента(СерверRabbitMQ = Неопределено) Экспорт  // throws Exception
 	
 	СистемнаяИнфо = Новый СистемнаяИнформация;
 	Если СистемнаяИнфо.ТипПлатформы = ТипПлатформы.Windows_x86 Тогда
@@ -23,17 +23,22 @@
 		
 	Клиент  = Новый("AddIn.BITERP.PinkRabbitMQ3");
 
-    Коннект = Константы.ксп_АктивныйСерверRabbitMQ.Получить();
+	Если ЗначениеЗаполнено(СерверRabbitMQ) Тогда
+		Сервер = СерверRabbitMQ;
+	Иначе 
+		Сервер = Константы.ксп_АктивныйСерверRabbitMQ.Получить();
+	КонецЕсли;
+    
 	
 	// В метод Клиент.Connect() нельзя передавать реквизиты справочника!
 	// т.е. вот так: Клиент.Connect(Коннект.server,...
 	// Будет "Непредвиденная ошибка!"
 	// Поэтому сначала помещаем их в переменные:
-	server 		= Коннект.server;                                                              
-	port 		= Коннект.port;
-	username 	= Коннект.username;
-	password 	= Коннект.password;
-	vhost 		= Коннект.vhost;
+	server 		= Сервер.server;                                                              
+	port 		= Сервер.port;
+	username 	= Сервер.username;
+	password 	= Сервер.password;
+	vhost 		= Сервер.vhost;
 	
 	Попытка
 		Клиент.Connect(server, port, username, password, vhost);

@@ -16,14 +16,13 @@
 		<Metadata name="CommonTemplate.PinkRabbitMQ32.Template" id="9aeeb0cd-6344-4312-a508-54ef4b7ad21f.0" configVersion="61611a5f52084d51b185db769aaae172c5418254"/>
 		<Metadata name="CommonTemplate.PinkRabbitMQ64" id="12ba866e-9a85-4112-8cb7-6209665a26f4" configVersion="b84098107b4f23e30492f0f608673909de25d26a"/>
 		<Metadata name="CommonTemplate.PinkRabbitMQ64.Template" id="12ba866e-9a85-4112-8cb7-6209665a26f4.0" configVersion="983b7f6b9ded1782cf0c1d4a1ec24bb9ea1fb26d"/>
-		<Metadata name="Configuration.RabbitConnector8312" id="024012ad-09df-4f6d-a303-71fd1e4b2de0" configVersion="bf267abcdb278809fc5cc82e0ab3d91e6a96cb24"/>
+		<Metadata name="Configuration.RabbitConnector8312" id="024012ad-09df-4f6d-a303-71fd1e4b2de0" configVersion="9ce6a2d3737a164411f5d3c15ab52fa9a111eebe"/>
 		<Metadata name="InformationRegister.rabbit_НастройкиПодсистемы" id="4d076177-d3b3-4fa8-ac04-c20525f710ba" configVersion="fa055d654033e251fe2ff6c40079584f83ad5b77">
 			<Metadata name="InformationRegister.rabbit_НастройкиПодсистемы.Resource.АктивныйСерверRabbitMQ" id="47534fa5-03f5-4218-b9dd-6239a24e8fd2"/>
 			<Metadata name="InformationRegister.rabbit_НастройкиПодсистемы.Resource.ТочкаОбмена" id="a931d042-0aa2-4f4c-b209-4c700ea8bdff"/>
 		</Metadata>
 		<Metadata name="InformationRegister.rabbit_НастройкиПодсистемы.ManagerModule" id="4d076177-d3b3-4fa8-ac04-c20525f710ba.2" configVersion="991585e9a4494ede7dec45a27c8ec54a8853027c"/>
 		<Metadata name="Language.Русский" id="c60a799e-f7fd-4114-8853-054ef337f704" configVersion="ff92c82507e39713b18912e4ee67cf4ebe81857e"/>
-		<Metadata name="Role.rabbit_ОсновнаяРоль" id="4c6d1183-4b3c-45d3-8859-53008100d8e9" configVersion="25e0a62db817ffde86a2c58723c8f1990bae8237"/>
-		<Metadata name="Subsystem.RabbitMQConnector" id="d846b1ea-e82d-4d5c-acb7-3f0e3d5868d9" configVersion="a305fa00fe244c6d5ed5183184c707917cd925fc"/>
+		<Metadata name="Subsystem.rmq_Подсистема1" id="72897ad0-6f35-4fbe-a508-6438171ca841" configVersion="1599fce1ec7c603d4bd38acee5b34a00a6eded05"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
